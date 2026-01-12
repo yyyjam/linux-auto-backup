@@ -13,12 +13,12 @@ from email.header import Header
 from email.utils import formataddr  # <--- 新增了这个工具库
 
 # ================= 配置区域 (请再次确认这里) =================
-# 发送邮箱 (你的 QQ 邮箱)
-MAIL_USER = '3559601246@qq.com'
-# 授权码 
-MAIL_PASS = 'viyzikitmfecdbaj'
-# 接收邮箱 (填和上面一样的)
-MAIL_RECEIVER = '3559601246@qq.com'
+# 发送邮箱
+MAIL_USER = 'your_email@qq.com'   
+# 授权码
+MAIL_PASS = 'YOUR_AUTH_CODE_HERE' 
+# 接收邮箱
+MAIL_RECEIVER = 'your_email@qq.com'
 # ======================================================
 
 def send_email(subject, content):
