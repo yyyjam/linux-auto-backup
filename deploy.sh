@@ -40,7 +40,7 @@ cat << EOF > "$SCRIPT_PATH"
 SOURCE_DIR="/home/${CURRENT_USER}/"
 BASE_DEST_DIR="/hub/datasets/${CURRENT_USER}/backup"
 # --- 请在部署后修改此邮箱 ---
-EMAIL_ADDRESS="your_email@example.com"
+EMAIL_ADDRESS="3559601246@qq.com"
 LOG_FILE="/tmp/backup_log.txt"
 DATE_STR=\$(date "+%Y-%m-%d %H:%M:%S")
 
