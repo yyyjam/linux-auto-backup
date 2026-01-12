@@ -7,7 +7,7 @@ CURRENT_USER=$(whoami)
 SCRIPT_PATH="/home/${CURRENT_USER}/auto_sync.sh"
 # 设置源目录 (当前用户的主目录)
 SOURCE_DIR="/home/${CURRENT_USER}/"
-# 设置备份目录 (根据你的需求保持不变，或者也可以改为用户目录下)
+# 设置备份目录
 BACKUP_BASE="/hub/datasets/${CURRENT_USER}/backup"
 # ===============================================
 
